@@ -3,7 +3,8 @@ import axios from "axios";
 
 import "./Form.scss";
 const logo = require("../assets/logo.png")
-const API_URL = `http://168.197.129.251:9000/.netlify/functions/server/`;
+const API_PORT = "3001";
+const API_URL = `http://168.197.129.251:${API_PORT}`;
 
 const Form = () => {
 	var nameRef = useRef<any>(null);
