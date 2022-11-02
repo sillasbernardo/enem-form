@@ -1,0 +1,81 @@
+@import url('http://fonts.cdnfonts.com/css/roboto');
+
+body{
+	margin: 0;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	color: rgba(0,0,0,0.7);
+	font-family: Roboto;
+	font-weight: bold;
+	background: rgba(0, 198, 255, 0.5);
+	height: 100vh;
+
+	.form-div{
+		display: flex;
+		flex-direction: column;
+		width: 250px;
+		padding: 0 20px 20px 20px;
+		background: #feb200;
+		border-radius: 10px;
+		margin-top: 20px;
+		box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+		.logo{
+			display: flex;
+			justify-content: center;
+		}
+	
+		.form-info{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 20px;
+			background-color: rgba(255, 2, 174, 0.1);
+			border-radius: 10px;
+			padding: 5px 0;
+			
+			h5{
+				margin: 0;
+			}
+		}
+	
+		.element-form{
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 10px;
+			align-items: center;
+			
+			input{
+				border: none;
+				border-radius: 5px;
+				height: 25px;
+			}
+		}
+
+		button{
+			width: 80px;
+			font-family: Roboto;
+			font-weight: bold;
+			font-size: 10pt;
+			margin-left: 170px;
+			border: none;
+			background: #00c6ff;
+			color: white;
+			height: 30px;
+			border-radius: 10px;
+		}
+	}
+
+}
+
+
+
+
+
+
+
+
