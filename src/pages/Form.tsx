@@ -12,7 +12,6 @@ const Form = () => {
 	var phoneRef = useRef<any>(null);
 
 	const postData = () => {
-		console.log('im clicked')
 		axios.post(`${API_URL}/send`, {
 			name: nameRef.current.value,
 			email: emailRef.current.value,
