@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/enem-form/static/css/main.8990c376.css",
+    "main.css": "/enem-form/static/css/main.7d7a609b.css",
     "main.js": "/enem-form/static/js/main.846337b9.js",
     "static/media/logo.png": "/enem-form/static/media/logo.1c5fecfa7d22892bf9f6.png",
     "index.html": "/enem-form/index.html",
-    "main.8990c376.css.map": "/enem-form/static/css/main.8990c376.css.map",
+    "main.7d7a609b.css.map": "/enem-form/static/css/main.7d7a609b.css.map",
     "main.846337b9.js.map": "/enem-form/static/js/main.846337b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.8990c376.css",
+    "static/css/main.7d7a609b.css",
     "static/js/main.846337b9.js"
   ]
 }
